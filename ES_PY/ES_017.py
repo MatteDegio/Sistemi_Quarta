@@ -1,9 +1,11 @@
-"""Scrivi un programma in Python che permetta all’utente di inserire un numero intero e una stringa:
-concatena la stringa con sé stessa tante volte quante il numero e stampa il risultato."""
+x = int(input("Inserisci un numero: "))
 
-n = int (input("Inserisci un numero qualsiasi: "))
-parola = input("Inserisci un parola qualsiasi: ")
+y = int(input("Inserisci un numero: "))
 
-parola = parola * n
+l = []
+l.append((x**2) + (y**2))
+l.append(((x + y)**2))
+l.append((x**2) - (y**2))
+l.append((x - y)**2)
 
-print(parola)
+print(l)

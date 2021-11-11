@@ -1,11 +1,5 @@
-x = int(input("Inserisci un numero: "))
+rubrica = {"matteo": 40328958, "davide": 24958067, "simone": 10947364, "samuele": 64328754}
 
-y = int(input("Inserisci un numero: "))
-
-l = []
-l.append((x**2) + (y**2))
-l.append(((x + y)**2))
-l.append((x**2) - (y**2))
-l.append((x - y)**2)
-
-print(l)
+print(rubrica["matteo"])
+rubrica["mattia"] = 30297456 
+print(rubrica)
